@@ -4,8 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutteraaron/QRcodePage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+/*void main() {
+  runApp(MaterialApp(
+      home: QrcodePage(), // Changement de la page de démarrage(démarrage QRcodePage)
+    title: 'Mon application',
+      ));
+}*/
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp()); //(démarrage LoginPage)
 }
 
 class MyApp extends StatefulWidget {
